@@ -18,4 +18,6 @@ public class Calculator {
     public static int subtraction(int x, int y) {
         throw new UnsupportedOperationException("To be implemented");
     }
+
+    // Use operateBinary method to impletment square sum
 }
