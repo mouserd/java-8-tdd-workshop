@@ -20,4 +20,7 @@ public class Calculator {
     }
 
     // TODO: Use operateBinary method to implement square sum z = x^2 + y^2
+    public static int squareSum(int x, int y) {
+        return operateBinary(x, y, (a, b) -> a * a + b * b);
+    }
 }

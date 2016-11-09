@@ -19,6 +19,6 @@ public class CalculatorTest {
     // TODO: Build your test for square sum z = x^2 + y^2
     @Test
     public void testSquareSum() {
-
+        assertThat("3^2 + 4^2", Calculator.squareSum(3, 4), equalTo(25));
     }
 }
