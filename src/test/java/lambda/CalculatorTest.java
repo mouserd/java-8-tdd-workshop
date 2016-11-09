@@ -16,5 +16,9 @@ public class CalculatorTest {
         assertThat("100 - 50", Calculator.subtraction(100, 50), equalTo(50));
     }
 
-    // Build your test for square sum z = x^2 + y^2
+    // TODO: Build your test for square sum z = x^2 + y^2
+    @Test
+    public void testSquareSum() {
+
+    }
 }

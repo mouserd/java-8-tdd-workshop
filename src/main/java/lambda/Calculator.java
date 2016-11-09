@@ -9,15 +9,15 @@ public class Calculator {
         return op.operation(a, b);
     }
 
-    // Use operateBinary method to implement this
+    // TODO: Use operateBinary method to implement this
     public static int addition(int x, int y) {
         throw new UnsupportedOperationException("To be implemented");
     }
 
-    // Use operateBinary method to implement this
+    // TODO: Use operateBinary method to implement this
     public static int subtraction(int x, int y) {
         throw new UnsupportedOperationException("To be implemented");
     }
 
-    // Use operateBinary method to impletment square sum
+    // TODO: Use operateBinary method to implement square sum z = x^2 + y^2
 }
