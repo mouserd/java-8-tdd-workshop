@@ -49,7 +49,7 @@ public class Employee {
 
     // TODO: Implement by using lambda function
     public static Comparator<? super Employee> getSortingByNameWithLamdbaFunction() {
-        throw new UnsupportedOperationException("To be implemented");
+        return (e1, e2) -> e1.getName().compareTo(e2.getName());
     }
 
     /* TODO:
@@ -57,6 +57,7 @@ public class Employee {
     /   2. Implement by Static Method Reference and Function composition
      */
     public static Comparator<? super Employee> getSortingByNameAndAge() {
-        throw new UnsupportedOperationException("To be implemented");
+        return Comparator.comparing(Employee::getName).thenComparing(Employee::getAge);
     }
+
 }

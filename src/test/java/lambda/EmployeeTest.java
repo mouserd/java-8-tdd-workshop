@@ -34,5 +34,13 @@ public class EmployeeTest {
     @Test
     public void testSortingByNameAndAge() {
         // TODO: Build your test case
+        List<Employee> employees = Lists.newArrayList(
+                new Employee("Katie", 30),
+                new Employee("Jason", 35),
+                new Employee("Jason", 32)
+        );
+        employees.sort(Employee.getSortingByNameAndAge());
+        assertThat(employees.get(0), equalTo(new Employee("Jason", 32)));
+        assertThat(employees.get(1), equalTo(new Employee("Jason", 35)));
     }
 }
