@@ -52,13 +52,7 @@ public class Employee {
         throw new UnsupportedOperationException("To be implemented");
     }
 
-    // TODO: Implement by using a lambda function that has multiple conditions
-    public static Comparator<? super Employee> getSortingByNameAndAgeWithLambdaFunction() {
-        throw new UnsupportedOperationException("To be implemented");
-    }
+    // TODO: 1. Implement by using a lambda function that has multiple conditions
 
-    // TODO: Implement by using Function composition and Static Method References
-    public static Comparator<? super Employee> getSortingByNameAndAgeWithFunctionComposition() {
-        throw new UnsupportedOperationException("To be implemented");
-    }
+    // TODO: 2. Implement by using Function composition and Static Method References
 }
